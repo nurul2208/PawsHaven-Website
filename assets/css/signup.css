@@ -1,0 +1,44 @@
+body {
+   background-color: #f8f9fa;
+   padding-top: 20px; /* Adjust top padding to reduce distance from the header */
+}
+
+.custom-container {
+   margin-top: 10px; /* Reduced margin for the container */
+   background-color: #ffffff;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Additional animation */
+.animate-element {
+   transition: transform 0.3s ease-in-out;
+}
+.animate-element:hover {
+   transform: scale(1.05);
+}
+
+/* Header styles */
+.navbar-brand img {
+   max-height: 40px; /* Adjust based on your logo height */
+   margin-right: 10px;
+}
+.navbar-brand span {
+   color: #fff;
+   font-size: 24px;
+   font-weight: bold;
+}
+
+/* Navbar link styles */
+.navbar-nav .nav-item {
+   margin-right: 15px; /* Adjust spacing between menu items */
+}
+.navbar-nav .nav-item a {
+   color: #fff;
+   font-weight: bold;
+   text-decoration: none;
+   transition: all 0.3s ease-in-out;
+}
+.navbar-nav .nav-item a:hover {
+   color: #17a2b8; /* Change color on hover to match the welcome.php */
+}

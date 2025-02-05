@@ -1,0 +1,82 @@
+/* Custom CSS for Dasboard */
+.card-img-top {
+    width: 70%;
+    height: 150px; /* Adjust the height as needed */
+}
+.card-title {
+    color: #3da9b9; /* Changing text color to match the primary color */
+}
+
+.card {
+    border: 2px solid #0c0c0c;
+}
+
+.card-header {
+    background-color: #17a2b8;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.text-visible {
+color: #333; /* Example: Set the color to a darker shade */
+}
+/* Table styles */
+.table {
+width: 100%;
+margin-top: 20px;
+}
+
+.table thead th {
+background-color: #333;
+color: #fff;
+}
+
+.table tbody td {
+border-bottom: 1px solid #ddd;
+}
+
+/* CSS style for the header and breadcrumb section */
+
+/* Header Styles */
+header {
+    background-color: #d4d4d4; /* Light background color */
+    padding: 15px 0;
+}
+
+.navbar {
+    justify-content: space-between;
+}
+
+.navbar-nav {
+    margin-right: auto;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+.btn-info {
+    background-color: #17a2b8; /* Primary color for the logout button */
+    color: #fff; /* Text color for the logout button */
+}
+
+/* Breadcrumb Styles */
+.pagetitle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.breadcrumb {
+    background-color: transparent; /* Transparent background for the breadcrumb */
+    padding: 0;
+    margin: 0;
+}
+
+.breadcrumb-item {
+    font-size: 18px;
+}
+
+.breadcrumb-item.active {
+    color: #000000; /* Active breadcrumb text color */
+}
+
